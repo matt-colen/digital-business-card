@@ -1,0 +1,62 @@
+.info {
+  text-align: center;
+}
+
+.profile-img {
+  height: 317px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  background: var(--bg-clr-profile);
+}
+
+.info-content {
+  padding: 0 2.2em;
+}
+
+.name {
+  font-size: 1.5rem;
+  margin: 1.31em 0 0.375em;
+}
+
+.field {
+  color: var(--txt-field-clr);
+  text-decoration: uppercase;
+  margin: 0 0 0.56em;
+}
+
+.website {
+  color: var(--txt-secondary-clr);
+  font-size: 0.625rem;
+}
+
+.btn {
+  padding: 0.6em 1em;
+  display: flex;
+  place-content: center;
+  gap: 0.5em;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  font-family: var(--font-fam);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.14;
+}
+
+.btns {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+}
+
+.btn--primary {
+  background: var(--txt-clr);
+  color: var(--txt-btn-primary);
+}
+
+.btn--secondary {
+  background: var(--bg-clr-linkedin);
+  color: var(--txt-clr);
+}
