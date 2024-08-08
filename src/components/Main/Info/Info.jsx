@@ -1,6 +1,6 @@
-import profileImg from "../../assets/matt-colen-small.png";
-import linkedin from "../../assets/linkedin.svg";
-import mail from "../../assets/mail.svg";
+import profileImg from "../../../assets/matt-colen-small.png";
+import linkedin from "../../../assets/linkedin.svg";
+import mail from "../../../assets/mail.svg";
 import "./Info.css";
 
 export default function Info() {

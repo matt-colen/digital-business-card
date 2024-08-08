@@ -1,0 +1,21 @@
+.container {
+  padding: 0 2.2em;
+}
+
+.section-header {
+  margin-top: 2em;
+  color: var(--txt-secondary-clr);
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.about > p,
+.interests > p {
+  color: var(--txt-clr-body);
+  font-size: 0.9rem;
+}
+
+a:hover {
+  transition: all 0.3s;
+  opacity: 0.8;
+}
