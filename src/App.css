@@ -6,6 +6,7 @@
   --txt-clr: hsl(0, 0%, 100%);
   --txt-field-clr: hsl(25, 79%, 78%);
   --txt-secondary-clr: hsl(0, 0%, 96%);
+  --txt-clr-body: hsl(0, 0%, 86%);
   --txt-btn-primary: hsl(217, 19%, 27%);
   --font-fam: "Inter", sans-serif;
 }
@@ -25,10 +26,27 @@ body {
   color: var(--txt-clr);
   max-width: 317px;
   margin: 44px auto;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px;
   overflow: hidden;
 }
 
 p {
   line-height: 1.5;
+}
+
+.container {
+  padding: 0 2.2em;
+}
+
+.section-header {
+  margin-top: 2em;
+  color: var(--txt-secondary-clr);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.about > p,
+.interests > p {
+  color: var(--txt-clr-body);
+  font-size: 0.75rem;
 }

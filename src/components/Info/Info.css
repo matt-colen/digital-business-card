@@ -10,10 +10,6 @@
   background: var(--bg-clr-profile);
 }
 
-.info-content {
-  padding: 0 2.2em;
-}
-
 .name {
   font-size: 1.5rem;
   margin: 1.31em 0 0.375em;

@@ -7,7 +7,7 @@ export default function Info() {
   return (
     <section id="info" className="info">
       <img className="profile-img" src={profileImg} alt="Matt Colen Smiling" />
-      <div className="info-content">
+      <div className="container">
         <h1 className="name">Matt Colen</h1>
         <p className="field">Frontend Developer</p>
         <p className="website">matt-colen.netlify.app</p>
