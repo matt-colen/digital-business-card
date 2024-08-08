@@ -13,6 +13,7 @@
 
 body {
   background: var(--clr-body_bg);
+  padding: 2em 1em;
 }
 
 * {
