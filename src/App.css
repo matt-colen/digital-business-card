@@ -1,37 +1,11 @@
-:root {
-  --bg-body-clr: hsl(227, 11%, 15%);
-  --bg-main-clr: hsl(231, 12%, 12%);
-  --bg-clr-profile: hsl(231, 12%, 22%);
-  --bg-clr-linkedin: hsl(212, 72%, 60%);
-  --txt-clr: hsl(0, 0%, 100%);
-  --txt-field-clr: hsl(25, 79%, 78%);
-  --txt-secondary-clr: hsl(0, 0%, 96%);
-  --txt-clr-body: hsl(0, 0%, 86%);
-  --txt-btn-primary: hsl(217, 19%, 27%);
-  --font-fam: "Inter", sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-body {
-  background: var(--bg-body-clr);
-}
-
 .main {
-  background: var(--bg-main-clr);
+  background: var(--clr-main_bg);
   font-family: var(--font-fam);
   color: var(--txt-clr);
   max-width: 317px;
-  margin: 44px auto;
+  margin: 2em auto;
   border-radius: 10px;
   overflow: hidden;
-}
-
-p {
-  line-height: 1.5;
 }
 
 .container {

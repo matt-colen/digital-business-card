@@ -1,13 +1,6 @@
 .footer {
   background: hsl(240, 6%, 9%);
   padding: 1rem;
-}
-
-.footer > ul {
-  list-style-type: none;
-  padding: 0;
   display: grid;
-  grid-template-columns: repeat(4, auto);
   place-content: center;
-  gap: 1.5em;
 }

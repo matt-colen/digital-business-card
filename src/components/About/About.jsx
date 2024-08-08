@@ -3,9 +3,10 @@ export default function About() {
     <section id="about" className="about container">
       <h2 className="section-header">About</h2>
       <p>
-        I am a frontend developer with a particular interest in making things
-        simple and automating daily tasks. I try to keep up with security and
-        best practices, and am always looking for new things to learn.
+        Hi I'm Matt Colen, a passionate front-end web developer with a
+        background in Operational Excellence (OpEx) and project management. I
+        have a Bachelor's in Psychology and a Master's in Business
+        Administration.
       </p>
     </section>
   );

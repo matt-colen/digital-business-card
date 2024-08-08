@@ -4,7 +4,7 @@ import Interests from "./components/Interests/Interests.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <main className="main">
       <Info />
@@ -14,5 +14,3 @@ function App() {
     </main>
   );
 }
-
-export default App;

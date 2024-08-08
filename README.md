@@ -1,3 +1,3 @@
 # Digital Business Card
 
-A digital business card for myself.
+A digital business card build using React.

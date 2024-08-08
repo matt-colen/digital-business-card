@@ -1,0 +1,25 @@
+:root {
+  --clr-body_bg: hsl(227, 11%, 15%);
+  --clr-main_bg: hsl(231, 12%, 12%);
+  --clr-img_bg: hsl(231, 12%, 22%);
+  --clr-linkedin: hsl(212, 72%, 60%);
+  --txt-clr: hsl(0, 0%, 100%);
+  --txt-field-clr: hsl(25, 79%, 78%);
+  --txt-secondary-clr: hsl(0, 0%, 96%);
+  --txt-clr-body: hsl(0, 0%, 86%);
+  --txt-btn-primary: hsl(217, 19%, 27%);
+  --font-fam: "Inter", sans-serif;
+}
+
+body {
+  background: var(--clr-body_bg);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5;
+}
